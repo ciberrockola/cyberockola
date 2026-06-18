@@ -1,5 +1,5 @@
 import { HeadContent, Link, Scripts, createRootRoute } from '@tanstack/react-router'
-import { Disc, Music, Calendar, Newspaper, Sparkles, Heart } from 'lucide-react'
+import { Disc, Music, Heart } from 'lucide-react'
 import * as React from 'react'
 
 import '../styles.css'
