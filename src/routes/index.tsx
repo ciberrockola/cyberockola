@@ -38,7 +38,7 @@ const FESTIVAL_AGENDA_DATA = [
     id: 'weekend-beach',
     name: 'Weekend Beach Festival',
     city: 'Torre del Mar, Málaga',
-    dates: '01 - 04 de Julio, 2026',
+    dates: '09 - 11 de Julio, 2026',
     genres: ['Rock', 'Indie', 'Electronic', 'Urban', 'Mestizaje'],
     link: '/posts/weekend_beach_festival_2026',
     status: 'Entradas Disponibles',

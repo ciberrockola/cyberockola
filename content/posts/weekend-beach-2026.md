@@ -10,13 +10,13 @@ image: "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fi
 
 # El Futuro ya está Aquí: Weekend Beach Festival 2026
 
-¡Atención "weekeners"! El verano de **2026** ya está en marcha, y la costa de **Torre del Mar** se prepara para acoger del **1 al 4 de julio** la undécima e inminente edición de nuestro querido festival playero: el **Weekend Beach Festival 2026**.
+¡Atención "weekeners"! El verano de **2026** ya está en marcha, y la costa de **Torre del Mar** se prepara para acoger del **9 al 11 de julio** la undécima e inminente edición de nuestro querido festival playero: el **Weekend Beach Festival 2026**.
 
 Este año, bajo el cobijo de la estética de CyberRockola Music, el festival abraza una atmósfera cyberpunk con matices analógicos. El recinto experimentará una ampliación con un nuevo espacio gastronómico de foodtrucks con luces de neón, puntos de carga solares para dispositivos móviles y vasos térmicos inteligentes coleccionables.
 
 ## Fechas y Recinto
 
-* **Cuándo:** Del miércoles 1 de julio al sábado 4 de julio de 2026.
+* **Cuándo:** Del jueves 9 de julio al sábado 11 de julio de 2026.
 * **Dónde:** Playa de Poniente, Torre del Mar (Málaga).
 * **Escenarios:** Escenario Torremar (Rock/Indie), Escenario Weekend (Urban/Pop), Carpa Sunrise (Techno/Underground), Escenario El Faro (Reggae/Mestizaje).
 
