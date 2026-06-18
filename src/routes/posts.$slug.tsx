@@ -174,7 +174,8 @@ function RouteComponent() {
               {relatedPosts.map((rel) => (
                 <Link 
                   key={rel.slug} 
-                  to={`/posts/${rel.slug}`} 
+                  to="/posts/$slug" 
+                  params={{ slug: rel.slug }}
                   className="group flex flex-col glass-panel rounded-xl overflow-hidden border border-purple-500/10 hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
                 >
                   <div className="relative h-40 overflow-hidden">

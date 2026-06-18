@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { useState, useEffect } from 'react'
 import { 
-  Disc, Music, Calendar, MapPin, Sparkles, Send, 
+  Music, Calendar, MapPin, Sparkles, Send, 
   SlidersHorizontal, ArrowUpRight, Flame, Volume2, 
-  HelpCircle, CheckCircle, AlertCircle, Info, ChevronRight, Tag
+  CheckCircle, AlertCircle, Info, ChevronRight, Newspaper
 } from 'lucide-react'
 
 import { allPosts } from 'content-collections'
@@ -38,7 +38,7 @@ const FESTIVAL_AGENDA_DATA = [
     id: 'weekend-beach',
     name: 'Weekend Beach Festival',
     city: 'Torre del Mar, Málaga',
-    dates: '01 - 04 de Julio, 2026',
+    dates: '09 - 11 de Julio, 2026',
     genres: ['Rock', 'Indie', 'Electronic', 'Urban', 'Mestizaje'],
     link: '/posts/weekend_beach_festival_2026',
     status: 'Entradas Disponibles',
@@ -406,7 +406,8 @@ function CyberRockolaHome() {
                   <div className="pt-6 border-t border-purple-500/10 flex items-center justify-between">
                     <span className="font-mono text-[10px] text-gray-500 uppercase tracking-widest">// CATEGORY: WEEKEND BEACH</span>
                     <Link 
-                      to={`/posts/${currentWbfPost.slug}`}
+                      to="/posts/$slug"
+                      params={{ slug: currentWbfPost.slug }}
                       className="font-mono text-xs font-bold px-4 py-2.5 bg-[#ff2a85]/10 hover:bg-[#ff2a85]/20 border border-pink-500/30 text-neon-pink rounded uppercase tracking-wider flex items-center gap-2 transition-colors duration-200"
                     >
                       <span>LEER CRÓNICA COMPLETA</span>
@@ -443,7 +444,8 @@ function CyberRockolaHome() {
               {articlePosts.map((post, index) => (
                 <Link 
                   key={post.slug} 
-                  to={`/posts/${post.slug}`}
+                  to="/posts/$slug"
+                  params={{ slug: post.slug }}
                   className={`group flex flex-col glass-panel rounded-2xl overflow-hidden border border-purple-500/10 hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 shadow-[0_4px_30px_rgba(0,0,0,0.3)] ${
                     index === 0 ? 'md:col-span-2 lg:col-span-2 flex-row' : ''
                   }`}
@@ -508,7 +510,8 @@ function CyberRockolaHome() {
               {agendaPosts.map((post) => (
                 <Link 
                   key={post.slug} 
-                  to={`/posts/${post.slug}`}
+                  to="/posts/$slug"
+                  params={{ slug: post.slug }}
                   className="group flex flex-col glass-panel rounded-xl overflow-hidden border border-purple-500/10 hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 shadow-[0_4px_20px_rgba(0,0,0,0.2)]"
                 >
                   <div className="relative h-44 bg-black">
